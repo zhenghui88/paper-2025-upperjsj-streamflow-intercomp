@@ -3,8 +3,13 @@
 .vscode
 .zed
 .idea
+.ruff_cache
 
 data
+datasource
+scripts/*.nc
+uv.lock
+.python-version
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -328,4 +333,3 @@ venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
