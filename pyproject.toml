@@ -4,21 +4,21 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
-    "h5netcdf>=1.5.0",
-    "matplotlib>=3.10.0",
+    "h5netcdf>=1.6",
+    "matplotlib>=3.10",
     "mpltern>=1.0.4",
-    "netcdf4>=1.7.2",
-    "numba>=0.61.0",
-    "numpy>=2.1.3",
-    "pandas>=2.2.3",
-    "polars>=1.21.0",
-    "pyarrow>=19.0.0",
-    "shapely>=2.0.7",
-    "xarray>=2025.1.2",
+    "netcdf4>=1.7",
+    "numba>=0.61",
+    "numpy>=2.1",
+    "pandas>=2.2",
+    "polars>=1.24",
+    "pyarrow>=19",
+    "shapely>=2.0",
+    "xarray>=2025.1",
 ]
 
 [dependency-groups]
-dev = ["dateutils>=0.6.12", "ipykernel>=6.29.5", "pyright>=1.1.393"]
+dev = ["dateutils>=0.6", "ipykernel>=6.29", "pyright>=1.1"]
 
 [tool.ruff.lint]
 fixable = ["ALL"]
